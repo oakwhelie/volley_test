@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">volley</string>
+    <string name="txt_nama">nama</string>
+    <string name="txt_posisi">posisi</string>
+    <string name="txt_gaji">gaji</string>
+    <string name="txt_send">send</string>
+</resources>
