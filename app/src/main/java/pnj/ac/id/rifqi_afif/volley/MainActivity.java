@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity
         final TextView gaji = (TextView)findViewById(R.id.edit_gaji);
         final TextView requeststatus = (TextView)findViewById(R.id.display_request_status);
 
-        String url = String.format("http://192.168.43.172/android/receive_data.php?nama=%s&posisi=%s&gaji=%s",
+        String url = String.format("http://your.ip/path/tobackend?nama=%s&posisi=%s&gaji=%s",
                 nama.getText().toString().replaceAll(" ", "+"),
                 posisi.getText().toString().replaceAll(" ", "+"),
                 gaji.getText().toString().replaceAll(" ", "+"));
